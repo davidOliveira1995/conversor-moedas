@@ -42,9 +42,9 @@ public class Main {
 
         if (moeda == 1) {
             real = 1;
-            dolar = 0.20;
-            euro = 0.18;
-            pounds = 0.16;
+            dolar = 0.20053;
+            euro = 0.18022;
+            pounds = 0.15948;
 
         } else if (moeda == 2){
             dolar = 1;
@@ -54,15 +54,15 @@ public class Main {
 
         } else if (moeda == 3) {
             euro = 1;
-            real = 5.55;
-            dolar = 1.11;
-            pounds = 0.88;
+            real = 5.54906;
+            dolar = 1.11275;
+            pounds = 0.88493;
 
         } else if(moeda == 4) {
             pounds = 1;
-            real = 6.27;
-            dolar = 1.26;
-            euro = 1.13;
+            real = 0.62765;
+            dolar = 1.25745;
+            euro = 1.13007;
         } else {
             System.out.println("Tipo moeda não localizada !");
         }
